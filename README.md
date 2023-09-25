@@ -45,7 +45,18 @@ npm install --legacy-peer-deps
 
 ## API
 
+![iShot_2023-09-25_16 53 59](https://github.com/gayoung106/gazero-tube/assets/98731537/687aad19-a278-4021-9899-4ec1b401abd8)
+
 https://rapidapi.com/ytdlfree/api/youtube-v31
+
+![iShot_2023-09-25_17 28 46](https://github.com/gayoung106/gazero-tube/assets/98731537/0eebbf07-7fbd-45bf-9d2f-d068c3dab937)
+
+## 구조
+
+![iShot_2023-09-25_17 21 15](https://github.com/gayoung106/gazero-tube/assets/98731537/86d188e3-9640-4495-8548-70709104587f)
+
+1. NavBar
+2. Feed - Sidebar & Videos
 
 ### 특이사항 정리(주로 material ui관련)
 
