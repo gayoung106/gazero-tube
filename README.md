@@ -43,6 +43,10 @@ npm install --legacy-peer-deps
 6. react-player: https://www.npmjs.com/package/react-player
 7. react-router-dom: https://www.npmjs.com/package/react-router-dom
 
+## API
+
+https://rapidapi.com/ytdlfree/api/youtube-v31
+
 ### 특이사항 정리(주로 material ui관련)
 
 - 피드 영역의 백그라운드 컬러를 지정해주 않았는데, 자동으로 백그라운드 컬러가 #000으로 설정됨
