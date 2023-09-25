@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const SearchFeed = () => {
-  return <div>SearchFeed</div>;
+  return <></>;
 };
 
 export default SearchFeed;

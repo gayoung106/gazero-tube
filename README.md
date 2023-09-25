@@ -1,4 +1,9 @@
-## GazeroTube(유튜브 프로젝트)
+# GazeroTube(유튜브 프로젝트)
+
+## 스택
+
+- React
+- mui css
 
 ## 설정
 
