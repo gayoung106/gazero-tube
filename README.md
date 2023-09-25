@@ -1,4 +1,4 @@
-## Gazero_tube(유튜브 프로젝트)
+## GazeroTube(유튜브 프로젝트)
 
 ## 설정
 
@@ -37,4 +37,3 @@ npm install --legacy-peer-deps
 5. axios: https://www.npmjs.com/package/axios
 6. react-player: https://www.npmjs.com/package/react-player
 7. react-router-dom: https://www.npmjs.com/package/react-router-dom
-# gazero-tube
