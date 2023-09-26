@@ -1,23 +1,29 @@
 # GazeroTube(유튜브 프로젝트)
 
-## 스택
+## DEMO
+
+https://gazero-tube.netlify.app/
+
+## STACK
 
 - React
 - mui css
 
-## 설정
+## SETTINGS
 
 ```
 npx create-react-app ./
 ```
 
-## 실행
+## START
 
 ```
 npm start
 ```
 
-## 라이브러리
+localhost:3000
+
+## LIBRARY
 
 ```
 npm i @emotion/react
@@ -63,15 +69,31 @@ https://rapidapi.com/ytdlfree/api/youtube-v31
 
 ![iShot_2023-09-26_13 20 10](https://github.com/gayoung106/gazero-tube/assets/98731537/d22b3a62-d6fc-4dd4-87a5-0812fc297110)
 
-## 구조
+## STRUCTURE
 
-![iShot_2023-09-25_17 21 15](https://github.com/gayoung106/gazero-tube/assets/98731537/86d188e3-9640-4495-8548-70709104587f)
+![Group 1](https://github.com/gayoung106/gazero-tube/assets/98731537/b17716d4-7fe0-434d-af36-09bd3d160db3)
 
 1. NavBar
 2. Feed - Sidebar & Videos
 3. Videos Feed 부분 - VideoCard & ChannelCard가 있음
-4. VideoCard 누르면 - VideoDetail 화면
+   ![iShot_2023-09-26_15 47 06](https://github.com/gayoung106/gazero-tube/assets/98731537/8a8d773e-4657-47bc-8697-09b03e5f5b8f)
+4. VideoCard 누르면 - VideoDetail 화면(VideoDetail 화면은 해당영상과 추천영상이 보여짐)
+   ![iShot_2023-09-26_15 47 35](https://github.com/gayoung106/gazero-tube/assets/98731537/dc11010b-7489-4aee-9ee5-96490ccd6229)
+
 5. ChannelCard 누르면 - ChannelDetail 화면이 출력
+
+## 기능
+
+1. 카테고리별 컨텐츠 출력
+   ![iShot_2023-09-26_16 02 53](https://github.com/gayoung106/gazero-tube/assets/98731537/f289546b-0225-4984-94bf-22fe7e4f727f)
+
+2. 동영상 선택시 동영상 재생기능 및 추천영상
+   ![iShot_2023-09-26_16 04 26](https://github.com/gayoung106/gazero-tube/assets/98731537/69b3583a-bd24-4fed-9e6f-a38ea1fdea5b)
+3. 채널을 누르면 해당 채널페이지로 이동(채널 컨텐츠 및 구독자 수를 노출)
+   ![iShot_2023-09-26_16 06 01](https://github.com/gayoung106/gazero-tube/assets/98731537/de427e93-6242-4c2b-949d-3bef1e5560cd)
+
+4. 검색기능
+   ![iShot_2023-09-26_16 06 49](https://github.com/gayoung106/gazero-tube/assets/98731537/aec22b62-d9c0-43de-a94d-7cbf0b795fd7)
 
 ### 특이사항 정리(주로 material ui관련)
 
