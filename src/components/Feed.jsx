@@ -41,7 +41,7 @@ const Feed = () => {
           variant="h4"
           fontWeight="bold"
           mb={2}
-          sx={{ color: "white" }}
+          sx={{ color: "white", fontFamily: "Giants-Bold" }}
         >
           {selectedCategory}
           <span style={{ color: "#f21503" }}> videos</span>
