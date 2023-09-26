@@ -10,28 +10,28 @@ import CheckroomIcon from "@mui/icons-material/Checkroom";
 import GraphicEqIcon from "@mui/icons-material/GraphicEq";
 import TheaterComedyIcon from "@mui/icons-material/TheaterComedy";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
-import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
+// import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
 
 export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
 
 export const categories = [
   { name: "New", icon: <HomeIcon /> },
   { name: "Gayoung", icon: <CodeIcon /> },
-  { name: "Coding", icon: <CodeIcon /> },
-  { name: "ReactJS", icon: <CodeIcon /> },
-  { name: "NextJS", icon: <CodeIcon /> },
-  { name: "Music", icon: <MusicNoteIcon /> },
-  { name: "Education", icon: <SchoolIcon /> },
-  { name: "Podcast", icon: <GraphicEqIcon /> },
+  // { name: "Coding", icon: <CodeIcon /> },
+  // { name: "ReactJS", icon: <CodeIcon /> },
+  // { name: "NextJS", icon: <CodeIcon /> },
+  { name: "Playlist", icon: <MusicNoteIcon /> },
+  { name: "Study with me", icon: <SchoolIcon /> },
+  { name: "Books", icon: <GraphicEqIcon /> },
   { name: "Movie", icon: <OndemandVideoIcon /> },
-  { name: "Gaming", icon: <SportsEsportsIcon /> },
-  { name: "Live", icon: <LiveTvIcon /> },
+  { name: "Game", icon: <SportsEsportsIcon /> },
+  { name: "Animation", icon: <LiveTvIcon /> },
   { name: "Sport", icon: <FitnessCenterIcon /> },
   { name: "Fashion", icon: <CheckroomIcon /> },
   { name: "Makeup", icon: <FaceRetouchingNaturalIcon /> },
   { name: "Comedy", icon: <TheaterComedyIcon /> },
   { name: "Gym", icon: <FitnessCenterIcon /> },
-  { name: "Crypto", icon: <DeveloperModeIcon /> },
+  // { name: "Crypto", icon: <DeveloperModeIcon /> },
 ];
 
 export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
