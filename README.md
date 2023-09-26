@@ -45,11 +45,23 @@ npm install --legacy-peer-deps
 
 ## API
 
-![iShot_2023-09-25_16 53 59](https://github.com/gayoung106/gazero-tube/assets/98731537/687aad19-a278-4021-9899-4ec1b401abd8)
+### Youtube v3 API 사용
 
 https://rapidapi.com/ytdlfree/api/youtube-v31
 
+![iShot_2023-09-25_16 53 59](https://github.com/gayoung106/gazero-tube/assets/98731537/687aad19-a278-4021-9899-4ec1b401abd8)
+
+### API 받아온 화면 1.
+
 ![iShot_2023-09-25_17 28 46](https://github.com/gayoung106/gazero-tube/assets/98731537/0eebbf07-7fbd-45bf-9d2f-d068c3dab937)
+
+### API 받아온 화면 2.
+
+![iShot_2023-09-25_18 25 42](https://github.com/gayoung106/gazero-tube/assets/98731537/877de92e-d58e-4556-9016-d13894bc05de)
+
+### API 받아온 화면 3.
+
+![iShot_2023-09-26_13 20 10](https://github.com/gayoung106/gazero-tube/assets/98731537/d22b3a62-d6fc-4dd4-87a5-0812fc297110)
 
 ## 구조
 
@@ -57,6 +69,9 @@ https://rapidapi.com/ytdlfree/api/youtube-v31
 
 1. NavBar
 2. Feed - Sidebar & Videos
+3. Videos Feed 부분 - VideoCard & ChannelCard가 있음
+4. VideoCard 누르면 - VideoDetail 화면
+5. ChannelCard 누르면 - ChannelDetail 화면이 출력
 
 ### 특이사항 정리(주로 material ui관련)
 
