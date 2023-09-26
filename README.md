@@ -75,6 +75,8 @@ https://rapidapi.com/ytdlfree/api/youtube-v31
 
 ### 특이사항 정리(주로 material ui관련)
 
+1. 첫번째, 스타일 상속?
+
 - 피드 영역의 백그라운드 컬러를 지정해주 않았는데, 자동으로 백그라운드 컬러가 #000으로 설정됨
   ![iShot_2023-09-25_14 29 46](https://github.com/gayoung106/gazero-tube/assets/98731537/34cce9c7-00ef-47ab-b4b9-c8f55111ca16)
 - 현재까지 화면 구조: App컴포넌트-Navbar컴포넌트(안에는 로고와 검색창이 있음) - 이하가 Feed컴포넌트
@@ -128,3 +130,37 @@ const App = () => (
 
 - 저 Box태그에 백그라운드 색상을 지정해둔걸 잊음
 - 즉, Box컴포넌트의 default 배경색을 #000으로 지정해둔 상태임
+
+2. 두번째. 재사용 가능한 구성요소
+
+- ChannelCard를 누르면, ChannelDetail 페이지로 이동
+
+```js
+ <Box
+    sx={{
+      boxShadow: "none",
+      borderRadius: "20px",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      width: { xs: "356px", md: "320px" },
+      height: "326px",
+      margin: "auto",
+
+    }}
+  >
+    <Link to={`/channel/${channelDetail?.id?.channelId}`}>
+  </Box>
+```
+
+- ChannelCard는 현재,
+  Videos Feed내에 VideoCard들과 함께 섞여서 보여짐
+  ![iShot_2023-09-26_13 55 19](https://github.com/gayoung106/gazero-tube/assets/98731537/6d595d46-24f8-4e9c-b0ad-0554259a5ea0)
+
+그리고 ChannelDetail에서 보여짐
+![iShot_2023-09-26_13 55 29](https://github.com/gayoung106/gazero-tube/assets/98731537/a3163765-9117-4a91-860d-3e4a56bbb44f)
+
+근데, 별도의 스타일을 추가하고 싶다면?
+![iShot_2023-09-26_14 01 18](https://github.com/gayoung106/gazero-tube/assets/98731537/000b9c95-0746-4ef1-8fd1-014705e095e6)
+
+이런식으로 `prop`을 통해 스타일을 전달해주면 됨
